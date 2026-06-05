@@ -1,0 +1,20 @@
+{
+  "name": "telesis",
+  "interface": {
+    "displayName": "Telesis"
+  },
+  "plugins": [
+    {
+      "name": "telesis-dev",
+      "source": {
+        "source": "local",
+        "path": "./plugins/telesis-dev"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

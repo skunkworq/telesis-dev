@@ -1,0 +1,36 @@
+{
+  "name": "telesis-dev",
+  "version": "0.1.0+codex.20260605104603",
+  "description": "Operate Telesis.dev monitoring safely with CLI and Connect JSON workflows.",
+  "author": {
+    "name": "Telesis"
+  },
+  "homepage": "https://telesis.dev",
+  "keywords": [
+    "telesis",
+    "uptime",
+    "monitoring",
+    "incident-response"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Telesis.dev",
+    "shortDescription": "Create and validate Telesis monitors.",
+    "longDescription": "Use Telesis.dev as the owned monitoring surface: authenticate, inspect organizations, create or update uptime checks, migrate away from third-party uptime tools, reason about intervals and traffic, and validate endpoints without exposing credentials.",
+    "developerName": "Telesis",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive",
+      "Write"
+    ],
+    "websiteURL": "https://telesis.dev",
+    "defaultPrompt": [
+      "Use $telesis-dev to create hourly uptime checks.",
+      "Use $telesis-dev to validate my Telesis monitors.",
+      "Use $telesis-dev to migrate external uptime checks."
+    ],
+    "brandColor": "#2563EB",
+    "composerIcon": "./assets/telesis-logo.png",
+    "logo": "./assets/telesis-logo.png"
+  }
+}
